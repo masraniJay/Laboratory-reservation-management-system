@@ -77,12 +77,12 @@
 	border-style:solid;
 	border-color: #777 transparent transparent transparent;
 }
-.seat-info .use-day-select,
-.seat-info .start-date-select{
+.seat-info .use-time-select,
+.seat-info .use-date-select{
 	display: none;
 }
-.seat-info .use-day-select,
-.seat-info .start-date-select{
+.seat-info .use-time-select,
+.seat-info .use-date-select{
 	width:160px;
 	padding:5px;
 	background:rgb(240,240,240);
@@ -95,8 +95,8 @@
 	-o-border-radius: 3px;
 	border-radius: 3px;
 }
-.seat-info .use-day-select td,
-.seat-info .start-date-select td{
+.seat-info .use-time-select td,
+.seat-info .use-date-select td{
 	wdith:30px;
 	height: 20px;
 	line-height: 20px;
@@ -104,28 +104,28 @@
 	color:#5d9ad0;
 	cursor:pointer;
 }
-.seat-info .use-day-select td:hover,
-.seat-info .start-date-select td:hover{
+.seat-info .use-time-select td:hover,
+.seat-info .use-date-select td:hover{
 	background: #fff;
 }
-.seat-info .start-date-select th{
+.seat-info .use-date-select th{
 	color:#6d8aa0;
 	height:30px;
 	line-height: 30px;
 }
-.start-date-select th span{
+.use-date-select th span{
 	display: inline-block;
 	border-width: 7px;
 	border-style: solid;
 }
-.start-date-select .date-left span{
+.use-date-select .date-left span{
 	border-color:transparent #6d8aa0 transparent transparent;
 }
-.start-date-select .date-right span{
+.use-date-select .date-right span{
 	border-color:transparent transparent transparent #6d8aa0;
 }
-.start-date-select .date-left span:hover,
-.start-date-select .date-right span:hover{
+.use-date-select .date-left span:hover,
+.use-date-select .date-right span:hover{
 	cursor:pointer;
 }
 .seat-info .iconfont{
